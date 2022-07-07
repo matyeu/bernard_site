@@ -13,9 +13,9 @@
 
 ## Développement
 
-* [Html - CSS](#) - Html - CSS
-* [PHP](#) - PHP
-* [JS](#) - JS
+* HTML - CSS
+* PHP
+* JS
 
 ## Versions
 * **Latest stable release:** 1.0.0
