@@ -1,1 +1,211 @@
-h1
+@import "https://fonts.googleapis.com/css?family=Lora:400,400i%7COpen+Sans:300,400,600,700,800";
+
+body {
+    font-family: open sans, sans-serif;
+    -webkit-font-smoothing: antialiased;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: open sans, sans-serif;
+    color: #000;
+    font-weight: 300
+}
+
+h1 {
+    font-size: 45px;
+    line-height: 61px
+}
+
+h2 {
+    font-size: 40px;
+    line-height: 50px
+}
+
+h3 {
+    font-size: 20px;
+    line-height: 30px
+}
+
+p, li, blockquote, label {
+    font-size: 16px;
+    letter-spacing: 0;
+    line-height: 25px;
+    color: gray;
+    margin-bottom: 0
+}
+
+.main-nav {
+    background: #fff;
+    z-index: 1
+}
+
+.main-nav .navbar-brand {
+    padding: 0
+}
+
+.main-nav .navbar-nav .nav-item {
+    position: relative;
+    font-family: open sans, sans-serif
+}
+
+.main-nav .navbar-nav .nav-item .nav-link {
+    position: relative;
+    text-align: center;
+    font-size: 13px;
+    text-transform: uppercase;
+    font-weight: 600;
+    color: #000;
+    padding-left: 20px;
+    padding-right: 20px;
+    line-height: 45px
+}
+
+@media (max-width: 992px) {
+    .main-nav .navbar-nav .nav-item .nav-link {
+        line-height: 25px
+    }
+}
+
+.main-nav .navbar-nav .nav-item .nav-link span i {
+    font-size: 11px
+}
+
+.main-nav .navbar-nav .nav-item.active .nav-link {
+    color: #2e7eed
+}
+
+.main-nav .navbar-nav .nav-item.active .nav-link:before {
+    content: '';
+    background: #2e7eed;
+    width: 60%;
+    height: 2px;
+    position: absolute;
+    top: 0;
+    left: 20%
+}
+
+@media (max-width: 992px) {
+    .main-nav .navbar-nav .nav-item.active .nav-link:before {
+        display: none
+    }
+}
+
+.main-nav .dropdown {
+    position: relative
+}
+
+.main-nav .dropdown .open > a, .main-nav .dropdown .open > a:focus, .main-nav .dropdown .open > a:hover {
+    background: 0 0
+}
+
+.main-nav .dropdown.full-width .dropdown-menu {
+    left: 0 !important;
+    right: 0 !important
+}
+
+@media (max-width: 992px) {
+    .main-nav .dropdown {
+        -webkit-transform: none;
+        transform: none;
+        left: auto;
+        position: relative;
+        text-align: center
+    }
+}
+
+.main-nav .dropdown .dropdown-menu {
+    border-radius: 0;
+    padding: 0;
+    border: 0;
+    box-shadow: 0 8px 30px rgba(0, 0, 0, .05);
+    display: none;
+    margin-top: 0
+}
+
+.main-nav .dropdown .dropdown-menu.show {
+    display: block
+}
+
+@media (max-width: 992px) {
+    .main-nav .dropdown .dropdown-menu {
+        text-align: center;
+        float: left !important;
+        width: 100%;
+        margin: 0
+    }
+}
+
+.main-nav .dropdown .dropdown-menu .dropdown-item {
+    font-size: 13px;
+    padding: 3px 22px;
+    transition: .3s ease
+}
+
+.main-nav .dropdown .dropdown-menu .dropdown-item.active, .main-nav .dropdown .dropdown-menu .dropdown-item.focus, .main-nav .dropdown .dropdown-menu .dropdown-item:focus, .main-nav .dropdown .dropdown-menu .dropdown-item:hover {
+    background-color: transparent;
+    color: #2e7eed
+}
+
+.main-nav .dropdown .dropdown-menu li:first-child {
+    margin-top: 10px
+}
+
+.main-nav .dropdown .dropdown-menu li:last-child {
+    margin-bottom: 10px
+}
+
+@media (min-width: 992px) {
+    .main-nav .dropdown .dropdown-menu {
+        position: absolute;
+        display: block;
+        visibility: hidden;
+        opacity: 0;
+        -webkit-transform: translateY(10px);
+        transform: translateY(10px);
+        transition: visibility .2s, opacity .2s, -webkit-transform 500ms cubic-bezier(.43, .26, .11, .99);
+        transition: visibility .2s, opacity .2s, transform 500ms cubic-bezier(.43, .26, .11, .99);
+        transition: visibility .2s, opacity .2s, transform 500ms cubic-bezier(.43, .26, .11, .99), -webkit-transform 500ms cubic-bezier(.43, .26, .11, .99)
+    }
+
+    .main-nav .dropdown:hover > .dropdown-menu {
+        opacity: 1;
+        visibility: visible;
+        color: #777;
+        -webkit-transform: translateY(0px);
+        transform: translateY(0px)
+    }
+}
+
+.dropdown-submenu.active > a, .dropdown-submenu:hover > a {
+    color: #2e7eed
+}
+
+.dropleft .dropdown-menu, .dropright .dropdown-menu {
+    margin: 0
+}
+
+.dropdown-toggle::after {
+    display: none
+}
+
+.dropleft .dropdown-toggle::before, .dropright .dropdown-toggle::after {
+    font-weight: 700;
+    font-family: themify;
+    border: 0;
+    font-size: 8px;
+    vertical-align: 1px
+}
+
+.dropleft .dropdown-toggle::before {
+    content: "\e64a";
+    margin-right: 5px
+}
+
+.dropright .dropdown-toggle::after {
+    content: "\e649";
+    margin-left: 5px
+}
+
+.navbar-toggler:focus, .navbar-toggler:hover {
+    outline: none
+}
