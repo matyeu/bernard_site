@@ -9,6 +9,9 @@
             <ul class="navbar-nav ml-auto">
                 <li class="nav-item dropdown active">
                 <li class="nav-item">
+                    <a class="nav-link" href="index.php">Home</a>
+                </li>
+                <li class="nav-item">
                     <a class="nav-link" href="<?= $link_bot; ?>" target="_blank">Add <?= $name_bot; ?></a>
                 </li>
                 <li class="nav-item">
