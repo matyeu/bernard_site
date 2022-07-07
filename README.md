@@ -9,7 +9,7 @@
 ![forthebadge](http://forthebadge.com/images/badges/built-with-love.svg)
 
 **Bernard** has all the tools you will need for your site web,<br>
-**Bernard** is a showcase site for Discord bot developped by [matyeu](https://discord.com/users/916444775861850175). You can invite the hosted version [here](https://discord.com/api/oauth2/authorize?client_id=983074050010144819&permissions=8&scope=bot%20applications.commands)
+**Bernard** is a showcase site for Discord bot developped by [matyeu](https://discord.com/users/916444775861850175)
 
 ## Développement
 
