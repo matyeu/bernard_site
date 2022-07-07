@@ -13,9 +13,8 @@
 
 ## Développement
 
-* HTML - CSS
-* PHP
-* JS
+* Languages : HTML - CSS - PHP - JS
+* Frameworks : BOOSTRAP - JQUERY
 
 ## Versions
 * **Latest stable release:** 1.0.0
