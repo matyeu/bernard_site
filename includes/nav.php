@@ -9,10 +9,10 @@
             <ul class="navbar-nav ml-auto">
                 <li class="nav-item dropdown active">
                 <li class="nav-item">
-                    <a class="nav-link" href="invite.php" target="_blank">Add <?= $name_bot; ?></a>
+                    <a class="nav-link" href="<?= $link_bot; ?>" target="_blank">Add <?= $name_bot; ?></a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="discord.php" target="_blank">Server discord</a>
+                    <a class="nav-link" href="<?= $link_server; ?>" target="_blank">Server discord</a>
                 </li>
                 <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown"><?= $name_bot; ?>
@@ -20,7 +20,7 @@
                     </a>
 
                     <ul class="dropdown-menu">
-                        <li><a class="dropdown-item" href="#" target="_blank">Documentation</a></li>
+                        <li><a class="dropdown-item" href="<?= $link_documentation; ?>" target="_blank">Documentation</a></li>
                         <li><a class="dropdown-item" href="about.php" target="_blank">About <?= $name_bot; ?></a></li>
                     </ul>
                 </li>
@@ -30,7 +30,7 @@
                     </a>
 
                     <ul class="dropdown-menu">
-                        <li><a class="dropdown-item" href="<?= $dashboard; ?>" target="_blank">Dashboard</a></li>
+                        <li><a class="dropdown-item" href="<?= $link_dashboard; ?>" target="_blank">Dashboard</a></li>
                     </ul>
                 </li>
             </ul>

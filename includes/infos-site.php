@@ -1,16 +1,17 @@
 <?php
 
 //Infos Site
-$url_pages = $url_site . 'pages/';
-$chemin_absolu = $_SERVER['DOCUMENT_ROOT'] . '/';
-
 $lang = "en";
 $name_site = "Bernard";
 $favicon = "favicon.ico";
 
 //Infos Bot
 $name_bot = "Bernard";
-$dashboard = "#";
+$link_dashboard = "#";
+$link_bot = "#";
+$link_documentation = "#";
+
+$link_server = "#";
 //===========================================================================//
 
 //Files paths
